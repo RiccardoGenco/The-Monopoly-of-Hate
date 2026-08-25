@@ -8,7 +8,7 @@
 
 Public hostility toward artificial intelligence is often treated as a spontaneous response to the technology and its risks. The reality is more complicated. Concerns about job losses, surveillance, disinformation, and economic concentration are well founded, but they can also be amplified and exploited by platforms, corporations, and political actors. Fear creates public support for expensive regulatory regimes that only the largest companies can afford, strengthening the very firms whose power deserves scrutiny. The central political question is who owns the models, controls the computing infrastructure, and sets the terms under which these systems may be used. A democratic response should combine effective safeguards with open models, publicly funded computing resources, independent research, and shared forms of ownership.
 
-*Keywords: artificial intelligence, regulatory capture, technocracy, open source, monopoly, public infrastructure*
+
 
 ## 1. The Machine as Scapegoat
 
