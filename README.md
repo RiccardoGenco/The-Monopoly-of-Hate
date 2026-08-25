@@ -1,3 +1,5 @@
+[English](README.md) | [Italiano](README.it.md)
+
 # Don't Blame the Fire. Look at Who Struck the Match
 
 ## Fear of artificial intelligence, concentrated power, and the case for public infrastructure
