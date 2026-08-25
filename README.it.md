@@ -8,7 +8,6 @@
 
 L'ostilità verso l'intelligenza artificiale viene spesso descritta come una reazione spontanea ai rischi della tecnologia. La realtà è più complessa. Le preoccupazioni per il lavoro, la sorveglianza, la disinformazione e la concentrazione economica hanno solide ragioni, ma possono anche essere amplificate e sfruttate da piattaforme, aziende e attori politici. La paura favorisce regolamenti costosi che soltanto le imprese più grandi riescono a sostenere, rafforzando proprio il potere che meriterebbe maggiore attenzione. La questione politica riguarda la proprietà dei modelli, il controllo delle risorse di calcolo e le condizioni imposte a chi vuole utilizzare questi sistemi. Una risposta democratica dovrebbe affiancare tutele efficaci a modelli aperti, infrastrutture pubbliche, ricerca indipendente e forme di proprietà condivisa.
 
-*Parole chiave: intelligenza artificiale, cattura regolatoria, tecnocrazia, open source, monopolio, infrastruttura pubblica*
 
 ## 1. La macchina come capro espiatorio
 
