@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f1e7">
+    <meta name="description" content="{{ page.description | escape }}">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="The Monopoly of Hate">
+    <meta property="og:locale" content="{% if page.lang == 'it' %}it_IT{% else %}en_US{% endif %}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="it" href="{{ '/it/' | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+
+    <title>{{ page.title }} | The Monopoly of Hate</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#article">Skip to article</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">The Monopoly of Hate</a>
+
+        <nav class="language-nav" aria-label="Language">
+          <a href="{{ '/' | relative_url }}" lang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a>
+          <span aria-hidden="true">/</span>
+          <a href="{{ '/it/' | relative_url }}" lang="it"{% if page.lang == 'it' %} aria-current="page"{% endif %}>Italiano</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="article" class="page-shell">
+      <article class="essay">
+        <div class="essay-meta" aria-label="Article information">
+          <span>{% if page.lang == 'it' %}Saggio{% else %}Essay{% endif %}</span>
+          <span aria-hidden="true">·</span>
+          <span>{% if page.lang == 'it' %}7 minuti di lettura{% else %}7 min read{% endif %}</span>
+        </div>
+
+        <div class="article-content">
+          {{ content }}
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>{% if page.lang == 'it' %}Testo e cronologia delle revisioni{% else %}Text and revision history{% endif %}</p>
+        <a href="https://github.com/RiccardoGenco/The-Monopoly-of-Hate">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,10 @@
+title: The Monopoly of Hate
+description: An essay on artificial intelligence, concentrated power, and the case for public infrastructure.
+url: https://riccardogenco.github.io
+baseurl: /The-Monopoly-of-Hate
+repository: RiccardoGenco/The-Monopoly-of-Hate
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: [apos, apos, quot, quot]
+
